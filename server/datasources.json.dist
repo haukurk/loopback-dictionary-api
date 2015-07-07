@@ -1,0 +1,15 @@
+{
+    "db": {
+        "connector": "memory", 
+        "name": "db"
+    }, 
+    "datasourcePsql": {
+        "connector": "postgresql", 
+        "database": "databasename", 
+        "host": "hostname", 
+        "name": "nameOfDatasource", 
+        "password": "password", 
+        "port": 5432, 
+        "username": "username"
+    }
+}

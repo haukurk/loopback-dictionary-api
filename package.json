@@ -1,0 +1,39 @@
+{
+    "bundleDependencies": [
+        "compression", 
+        "cors", 
+        "errorhandler", 
+        "loopback", 
+        "loopback-boot", 
+        "loopback-datasource-juggler", 
+        "loopback-explorer", 
+        "serve-favicon"
+    ], 
+    "dependencies": {
+        "compression": "^1.0.3", 
+        "cors": "^2.5.2", 
+        "errorhandler": "^1.1.1", 
+        "loopback": "^2.14.0", 
+        "loopback-boot": "^2.6.5", 
+        "loopback-datasource-juggler": "^2.19.0", 
+        "serve-favicon": "^2.0.1",
+        "loopback-connector-postgresql": "latest"
+    }, 
+    "description": "ordabokAPI", 
+    "devDependencies": {
+        "jshint": "^2.5.6"
+    }, 
+    "main": "server/server.js", 
+    "name": "ordabokAPI", 
+    "optionalDependencies": {
+        "loopback-explorer": "^1.1.0"
+    }, 
+    "repository": {
+        "type": "", 
+        "url": ""
+    }, 
+    "scripts": {
+        "pretest": "jshint ."
+    }, 
+    "version": "1.0.2"
+}
