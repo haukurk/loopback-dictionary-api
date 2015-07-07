@@ -3,6 +3,9 @@
 API for the Ordabok project.
 
 # Dependencies
+
+For anything to work, you need to have Node installed on your computer.
+
 To install all dependencies to do `npm install` in the root solution folder.
 
 # Configuration
@@ -13,6 +16,13 @@ The following configuration files need to have your attention before starting it
 * Main API configuration `config.json.dist`
 
 When you are done editing changes, please rename them, so that they have the extension `.json`.
+
+# Generate Datasource Structure
+
+You can make the API automatically create database structure with:
+```
+node server/bin/automigrate.js 
+```
 
 # API Explorer
 
